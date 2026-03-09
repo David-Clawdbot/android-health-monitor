@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">健康监测</string>
+    <string name="temperature_label">温度</string>
+    <string name="activity_label">运动状态</string>
+    <string name="health_score_label">健康评分</string>
+    <string name="start_monitoring">开始监测</string>
+    <string name="stop_monitoring">停止监测</string>
+    <string name="history">历史记录</string>
+    <string name="settings">设置</string>
+    <string name="temperature_normal">正常</string>
+    <string name="temperature_high">高温</string>
+    <string name="temperature_low">低温</string>
+    <string name="walking">步行</string>
+    <string name="running">跑步</string>
+    <string name="sitting">静止</string>
+    <string name="standing">站立</string>
+    <string name="lying_down">躺下</string>
+    <string name="unknown">未知</string>
+</resources>
