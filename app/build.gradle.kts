@@ -5,37 +5,37 @@ plugins {
 }
 
 android {
-    namespace 'com.healthmonitor'
-    compileSdk 34
+    namespace = "com.healthmonitor"
+    compileSdk = 34
     
     defaultConfig {
-        applicationId "com.healthmonitor"
-        minSdk 26
-        targetSdk 34
-        versionCode 1
-        versionName "1.0.0"
+        applicationId = "com.healthmonitor"
+        minSdk = 26
+        targetSdk = 34
+        versionCode = 1
+        versionName = "1.0.0"
         
-        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
     
     buildFeatures {
-        viewBinding true
+        viewBinding = true
     }
     
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_17
-        targetCompatibility JavaVersion.VERSION_17
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
     }
     
     kotlinOptions {
-        jvmTarget '17'
+        jvmTarget = "17"
     }
     
     sourceSets {
-        main {
-            manifest.srcFile 'src/main/AndroidManifest.xml'
-            java.srcDirs 'src/main/java'
-            res.srcDirs 'src/main/res'
+        getByName("main") {
+            manifest.srcFile("src/main/AndroidManifest.xml")
+            java.srcDirs("src/main/java")
+            res.srcDirs("src/main/res")
         }
     }
     
